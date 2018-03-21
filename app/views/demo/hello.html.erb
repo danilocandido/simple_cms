@@ -5,6 +5,12 @@
 <% target = 'World' %>
 <%= "Hello #{target}" %>
 
-<% 3.times do |n| %>
-  <%= n %>
+<br />
+
+<% @array.each do |n| %>
+  <%= n %> <br />
 <% end %>
+
+<br />
+
+<%= link_to('Index Page', {action: 'index'} ) %> <br />
