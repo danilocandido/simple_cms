@@ -9,7 +9,8 @@
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.7/en/old-client.html
 #
-# grant all privileges on simple_cms_development.* to 'rails_user'@'localhost' identified by 'secretpassword';
+#> grant all privileges on simple_cms_development.* to 'rails_user'@'localhost' identified by 'secretpassword';
+#> show grants for 'rails_user'@'localhost'
 #
 default: &default
   adapter: mysql2
